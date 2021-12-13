@@ -12,9 +12,6 @@
 
 4. 把vue提供的数据填充到标签里面
 
-   ![image-20210406122909842](C:\Users\29635\AppData\Roaming\Typora\typora-user-images\image-20210406122909842.png)
-
-   ![image-20210406123029264](C:\Users\29635\AppData\Roaming\Typora\typora-user-images\image-20210406123029264.png)
 
 ### 2. 指令
 
@@ -28,7 +25,7 @@
    + 如何解决该问题： 使用v-cloak指令。
    + 解决该问题的原理：先隐藏，替换好值之后再显示最终的值。
 
-   ![image-20210406124504057](D:\vue\Vue.js.assets\image-20210406124504057.png)
+   ![image-20210406124504057](Vue.js.assets\image-20210406124504057.png)
 
 2. v-text
    + v-text指令用于将数据填充到标签中，作用与插值表达式类似，但没有闪动问题。
@@ -46,7 +43,7 @@
    + 跳过这个元素和它的子元素的编译过程。
    + 一些静态内容不需要编译加这个指令可以加快渲染。
 
-   ![image-20210406125652345](D:\vue\Vue.js.assets\image-20210406125652345.png)
+   ![image-20210406125652345](Vue.js.assets\image-20210406125652345.png)
 
    ```js
    <body>
@@ -70,21 +67,21 @@
    </body>
    ```
 
-   ![image-20210406130344301](D:\vue\Vue.js.assets\image-20210406130344301.png)
+   ![image-20210406130344301](Vue.js.assets\image-20210406130344301.png)
 
 5. 数据响应式
 
-   ![image-20210406130512710](D:\vue\Vue.js.assets\image-20210406130512710.png)
+   ![image-20210406130512710](Vue.js.assets\image-20210406130512710.png)
 
 6. 双向数据绑定
 
    v-model
 
-   ![image-20210406131639728](D:\vue\Vue.js.assets\image-20210406131639728.png)
+   ![image-20210406131639728](Vue.js.assets\image-20210406131639728.png)
 
    MVVM：
 
-   ​	![image-20210406131930951](D:\vue\Vue.js.assets\image-20210406131930951.png)
+   ​	![image-20210406131930951](Vue.js.assets\image-20210406131930951.png)
 
 7. 事件绑定
 
@@ -93,11 +90,11 @@
    + 用来绑定事件的
    + v-on:click缩写为@click
 
-   ![image-20210406133956841](D:\vue\Vue.js.assets\image-20210406133956841.png)
+   ![image-20210406133956841](Vue.js.assets\image-20210406133956841.png)
 
    事件绑定-参数传递
 
-   ![image-20210406134356514](D:\vue\Vue.js.assets\image-20210406134356514.png)
+   ![image-20210406134356514](Vue.js.assets\image-20210406134356514.png)
 
    ```js
    <div id="app">
@@ -134,57 +131,57 @@
 
 8. 事件修饰符
 
-   ![image-20210406134714473](D:\vue\Vue.js.assets\image-20210406134714473.png)
+   ![image-20210406134714473](Vue.js.assets\image-20210406134714473.png)
 
    使用修饰符时，顺序很重要；相应的代码会以同样的顺序产生，因此，用v-on:click.prevent.self会阻止所有的点击，而v-on:click.self.prevent只会阻止对元素自身的点击
 
 9. 按键修饰符
 
-   ![image-20210406145850056](D:\vue\Vue.js.assets\image-20210406145850056.png)
+   ![image-20210406145850056](Vue.js.assets\image-20210406145850056.png)
 
    自定义按键修饰符
 
-   ![image-20210406150314496](D:\vue\Vue.js.assets\image-20210406150314496.png)
+   ![image-20210406150314496](Vue.js.assets\image-20210406150314496.png)
 
-   ![image-20210406150330820](D:\vue\Vue.js.assets\image-20210406150330820.png)
+   ![image-20210406150330820](Vue.js.assets\image-20210406150330820.png)
 
 10. 属性绑定
 
     1. v-bind
 
-       ![image-20210406164543733](D:\vue\Vue.js.assets\image-20210406164543733.png)
+       ![image-20210406164543733](Vue.js.assets\image-20210406164543733.png)
 
     2. 绑定对象
 
-       ![image-20210406171810686](D:\vue\Vue.js.assets\image-20210406171810686.png)
+       ![image-20210406171810686](Vue.js.assets\image-20210406171810686.png)
 
-       ![image-20210406171825612](D:\vue\Vue.js.assets\image-20210406171825612.png)
+       ![image-20210406171825612](Vue.js.assets\image-20210406171825612.png)
 
     3. 绑定数组
 
-       ![image-20210406171905046](D:\vue\Vue.js.assets\image-20210406171905046.png)
+       ![image-20210406171905046](Vue.js.assets\image-20210406171905046.png)
 
 11. 分支循环结构
 
     1. v-if
 
-       ![image-20210406192026878](D:\vue\Vue.js.assets\image-20210406192026878.png)
+       ![image-20210406192026878](Vue.js.assets\image-20210406192026878.png)
 
     2. v-show和v-if的区别
 
-       ![image-20210406192101202](D:\vue\Vue.js.assets\image-20210406192101202.png)
+       ![image-20210406192101202](Vue.js.assets\image-20210406192101202.png)
 
     3. v-for
 
        用于循环的数组里面的值可以是对象，也可以是普通元素。
 
-       ![image-20210406192317271](D:\vue\Vue.js.assets\image-20210406192317271.png)
+       ![image-20210406192317271](Vue.js.assets\image-20210406192317271.png)
 
-       ![image-20210406195635764](D:\vue\Vue.js.assets\image-20210406195635764.png)
+       ![image-20210406195635764](Vue.js.assets\image-20210406195635764.png)
 
-       ![image-20210406195746016](D:\vue\Vue.js.assets\image-20210406195746016.png)
+       ![image-20210406195746016](Vue.js.assets\image-20210406195746016.png)
 
-       ​	![image-20210406200113828](D:\vue\Vue.js.assets\image-20210406200113828.png)
+       ​	![image-20210406200113828](Vue.js.assets\image-20210406200113828.png)
 
 ### 3.Vue常用特性
 
@@ -194,19 +191,19 @@
 
    2. 通过v-model获取单选框中的值
 
-      ![image-20210407151311567](D:\vue\Vue.js.assets\image-20210407151311567.png)
+      ![image-20210407151311567](Vue.js.assets\image-20210407151311567.png)
 
    3. 通过v-model获取复选框中的值
 
       复选框checkbox这种的组合时data中的hobby我们要定义成数组否则无法实现多选。
 
-      ![image-20210407151642429](D:\vue\Vue.js.assets\image-20210407151642429.png)
+      ![image-20210407151642429](Vue.js.assets\image-20210407151642429.png)
 
-      ![image-20210407151658154](D:\vue\Vue.js.assets\image-20210407151658154.png)
+      ![image-20210407151658154](Vue.js.assets\image-20210407151658154.png)
 
    4. 通过v-model获取下拉框和文本框中的值
 
-      ![image-20210407152028539](D:\vue\Vue.js.assets\image-20210407152028539.png)
+      ![image-20210407152028539](Vue.js.assets\image-20210407152028539.png)
 
    5. 表单修饰符(添加在v-model之后)
 
@@ -419,11 +416,11 @@
 
 ​	Vue实例从创建到销毁的过程，这些过程中会伴随着一些函数的自我调用。我们称这些函数为钩子函数。
 
-![image-20210407175128192](D:\vue\Vue.js.assets\image-20210407175128192.png)
+![image-20210407175128192](Vue.js.assets\image-20210407175128192.png)
 
 ### 7.变异数组
 
-​	![image-20210407195605019](D:\vue\Vue.js.assets\image-20210407195605019.png)	
+​	![image-20210407195605019](Vue.js.assets\image-20210407195605019.png)	
 
 ​	动态数组响应式数据：Vue.set(vm.item,indexOfItem,newValue)让触发视图重新更新一遍，数据动态起来。vm.item是要更改的数据、indexOfItem是数据的第几项、newValue是更改后的数据。
 
@@ -451,9 +448,9 @@
 
 2. 组件注册注意事项
 
-   ![image-20210409135401320](D:\vue\Vue.js.assets\image-20210409135401320.png)
+   ![image-20210409135401320](Vue.js.assets\image-20210409135401320.png)
 
-   ![image-20210409135837950](D:\vue\Vue.js.assets\image-20210409135837950.png)
+   ![image-20210409135837950](Vue.js.assets\image-20210409135837950.png)
 
    驼峰命名法命名组件时，不能直接写到html中，可以用短横线方式写到html中，但是可以直接写到其他子组件的template中。
 
@@ -643,7 +640,7 @@
 
    - 兄弟之间传递数据需要借助于事件中心，通过事件中心传递数据   
 
-     ![image-20210409162642858](D:\vue\Vue.js.assets\image-20210409162642858.png)
+     ![image-20210409162642858](Vue.js.assets\image-20210409162642858.png)
 
      - 提供事件中心    var hub = new Vue()
 
@@ -827,9 +824,9 @@
 
 2. URL地址格式
 
-   ![image-20210410151912243](D:\vue\Vue.js.assets\image-20210410151912243.png)
+   ![image-20210410151912243](Vue.js.assets\image-20210410151912243.png)
 
-   ![image-20210410152157562](D:\vue\Vue.js.assets\image-20210410152157562.png)
+   ![image-20210410152157562](Vue.js.assets\image-20210410152157562.png)
 
 ### 2.Promise
 
@@ -842,7 +839,7 @@
 
 1. 基本用法 
 
-   ![image-20210410155346523](D:\vue\Vue.js.assets\image-20210410155346523.png)
+   ![image-20210410155346523](Vue.js.assets\image-20210410155346523.png)
 
 2. 基于promise发送Ajax请求
 
@@ -1428,7 +1425,7 @@
           });
       ```
 
-      ![image-20210412112727377](D:\vue\Vue.js.assets\image-20210412112727377.png)
+      ![image-20210412112727377](Vue.js.assets\image-20210412112727377.png)
 
 ### 5.动态路由匹配
 
@@ -1556,7 +1553,7 @@
 
 2. Node.js中通过babel体验ES6模块化
 
-   ![image-20210412145051497](D:\vue\Vue.js.assets\image-20210412145051497.png)
+   ![image-20210412145051497](Vue.js.assets\image-20210412145051497.png)
 
 3. es6模块化的基本语法
 
@@ -1594,11 +1591,11 @@
 
    2. 按需导出与按需导入
 
-      ![image-20210412150914294](D:\vue\Vue.js.assets\image-20210412150914294.png)
+      ![image-20210412150914294](Vue.js.assets\image-20210412150914294.png)
 
    3. 直接导入并执行模块代码
 
-      ![image-20210412150950509](D:\vue\Vue.js.assets\image-20210412150950509.png)
+      ![image-20210412150950509](Vue.js.assets\image-20210412150950509.png)
 
 ### 2.webpack
 
@@ -1612,63 +1609,63 @@
 
    1. 创建列表隔行变色项目
 
-      ![image-20210412151417763](D:\vue\Vue.js.assets\image-20210412151417763.png)
+      ![image-20210412151417763](Vue.js.assets\image-20210412151417763.png)
 
    2. 在项目中安装和配置webpack
 
-      ![image-20210412151512947](D:\vue\Vue.js.assets\image-20210412151512947.png)
+      ![image-20210412151512947](Vue.js.assets\image-20210412151512947.png)
 
    3. 配置打包的入口和出口
 
-      ![image-20210412151539956](D:\vue\Vue.js.assets\image-20210412151539956.png)
+      ![image-20210412151539956](Vue.js.assets\image-20210412151539956.png)
 
    4. 配置webpack自动打包功能
 
-      ![image-20210412151608282](D:\vue\Vue.js.assets\image-20210412151608282.png)
+      ![image-20210412151608282](Vue.js.assets\image-20210412151608282.png)
 
    5. 配置html-webpack-plugin生成预览页面
 
-      ![image-20210412151645075](D:\vue\Vue.js.assets\image-20210412151645075.png)
+      ![image-20210412151645075](Vue.js.assets\image-20210412151645075.png)
 
    6. 配置自动打包相关的参数
 
-      ![image-20210412151711394](D:\vue\Vue.js.assets\image-20210412151711394.png)
+      ![image-20210412151711394](Vue.js.assets\image-20210412151711394.png)
 
 3. webpack中的加载器
 
    1. 通过loader打包非js模块
 
-      ![image-20210412151809141](D:\vue\Vue.js.assets\image-20210412151809141.png)
+      ![image-20210412151809141](Vue.js.assets\image-20210412151809141.png)
 
    2. loader的调用过程
 
-      ![image-20210412151838450](D:\vue\Vue.js.assets\image-20210412151838450.png)
+      ![image-20210412151838450](Vue.js.assets\image-20210412151838450.png)
 
 4. webpack中加载器的基本使用
 
    1. 打包处理css文件
 
-      ![image-20210412151926834](D:\vue\Vue.js.assets\image-20210412151926834.png)
+      ![image-20210412151926834](Vue.js.assets\image-20210412151926834.png)
 
    2. 打包处理less文件
 
-      ![image-20210412151948968](D:\vue\Vue.js.assets\image-20210412151948968.png)
+      ![image-20210412151948968](Vue.js.assets\image-20210412151948968.png)
 
    3. 打包处理scss文件
 
-      ![image-20210412152013386](D:\vue\Vue.js.assets\image-20210412152013386.png)
+      ![image-20210412152013386](Vue.js.assets\image-20210412152013386.png)
 
    4. 配置postCSS自动添加css的兼容前缀
 
-      ![image-20210412152050368](D:\vue\Vue.js.assets\image-20210412152050368.png)
+      ![image-20210412152050368](Vue.js.assets\image-20210412152050368.png)
 
    5. 打包样式表中的图片和字体文件
 
-      ![image-20210412152133216](D:\vue\Vue.js.assets\image-20210412152133216.png)
+      ![image-20210412152133216](Vue.js.assets\image-20210412152133216.png)
 
    6. 打包处理js文件中的高级语法
 
-      ![image-20210412152155922](D:\vue\Vue.js.assets\image-20210412152155922.png)
+      ![image-20210412152155922](Vue.js.assets\image-20210412152155922.png)
 
 ### 3.Vue单文件组件
 
@@ -1682,19 +1679,19 @@
 
    + style    样式区域
 
-     ![image-20210413124021444](D:\vue\Vue.js.assets\image-20210413124021444.png)
+     ![image-20210413124021444](Vue.js.assets\image-20210413124021444.png)
 
 2. webpack中配置vue 组件的加载器
 
-   ![image-20210413124108699](D:\vue\Vue.js.assets\image-20210413124108699.png)
+   ![image-20210413124108699](Vue.js.assets\image-20210413124108699.png)
 
 3. webpack项目中使用vue
 
-   ![image-20210413124147012](D:\vue\Vue.js.assets\image-20210413124147012.png)
+   ![image-20210413124147012](Vue.js.assets\image-20210413124147012.png)
 
 4. webpack打包发布
 
-   ![image-20210413125403394](D:\vue\Vue.js.assets\image-20210413125403394.png)
+   ![image-20210413125403394](Vue.js.assets\image-20210413125403394.png)
 
 ### 4.Vue脚手架
 
@@ -1720,7 +1717,7 @@
 
 2. Vue脚手架生成的项目结构分析
 
-   ![image-20210413125929654](D:\vue\Vue.js.assets\image-20210413125929654.png)
+   ![image-20210413125929654](Vue.js.assets\image-20210413125929654.png)
 
 3. Vue脚手架的自定义配置
 
@@ -1757,11 +1754,11 @@
 
 1. 基于命令行方式手动安装
 
-   ![image-20210413130609501](D:\vue\Vue.js.assets\image-20210413130609501.png)
+   ![image-20210413130609501](Vue.js.assets\image-20210413130609501.png)
 
 2. 基于图形化界面自动安装
 
-   ![image-20210413130632199](D:\vue\Vue.js.assets\image-20210413130632199.png)
+   ![image-20210413130632199](Vue.js.assets\image-20210413130632199.png)
 
 ## 6. vue案例
 
@@ -1777,19 +1774,19 @@
 
 ### 2.token原理分析
 
-![image-20210413142316681](D:\vue\Vue.js.assets\image-20210413142316681.png)
+![image-20210413142316681](Vue.js.assets\image-20210413142316681.png)
 
 ### 3. 路由导航守卫控制访问权限
 
-![image-20210414003641718](D:\vue\Vue.js.assets\image-20210414003641718.png)
+![image-20210414003641718](Vue.js.assets\image-20210414003641718.png)
 
-1. ![image-20210414011414372](D:\vue\Vue.js.assets\image-20210414011414372.png)
+1. ![image-20210414011414372](Vue.js.assets\image-20210414011414372.png)
 
 ### 4.slot-scope；scope.row,this.$refs.
 
 ### 5.提交表单时先预验证再发请求
 
-![image-20210417163244909](D:\vue\Vue.js.assets\image-20210417163244909.png)
+![image-20210417163244909](Vue.js.assets\image-20210417163244909.png)
 
 ### 6.form
 
@@ -1805,7 +1802,7 @@
 
  1. Vuex是实现组件全局状态（数据）管理的一种机制，可以方便的实现组件之间数据的共享
 
-    ![image-20210421160732291](D:\vue\Vue.js.assets\image-20210421160732291.png)
+    ![image-20210421160732291](Vue.js.assets\image-20210421160732291.png)
 
 2. 使用Vuex统一管理状态的好处
    + 能够在vuex中集中管理共享的数据，易于开发和后期维护
@@ -1868,7 +1865,7 @@
    this.$store.state.全局数据名称
    ```
 
-   ![image-20210421173215763](D:\vue\Vue.js.assets\image-20210421173215763.png)
+   ![image-20210421173215763](Vue.js.assets\image-20210421173215763.png)
 
 2. Mutation
 
@@ -1878,11 +1875,11 @@
 
    + 通过这种方式虽然操作起来稍微繁琐一些，但是可以集中监控所有数据的变化
 
-     ![image-20210421173409155](D:\vue\Vue.js.assets\image-20210421173409155.png)
+     ![image-20210421173409155](Vue.js.assets\image-20210421173409155.png)
 
-     ![image-20210421173420394](D:\vue\Vue.js.assets\image-20210421173420394.png)
+     ![image-20210421173420394](Vue.js.assets\image-20210421173420394.png)
 
-     ![image-20210421173435856](D:\vue\Vue.js.assets\image-20210421173435856.png)
+     ![image-20210421173435856](Vue.js.assets\image-20210421173435856.png)
 
 3. Action
 
@@ -1890,17 +1887,17 @@
 
    如果通过异步操作变更数据，必须通过Action，而不能使用Mutation，但是在Action中还是要通过触发Mutation的方式间接变更数据。
 
-   ![image-20210421173656604](D:\vue\Vue.js.assets\image-20210421173656604.png)
+   ![image-20210421173656604](Vue.js.assets\image-20210421173656604.png)
 
-   ![image-20210421173718348](D:\vue\Vue.js.assets\image-20210421173718348.png)
+   ![image-20210421173718348](Vue.js.assets\image-20210421173718348.png)
 
-   ![image-20210421173730540](D:\vue\Vue.js.assets\image-20210421173730540.png)
+   ![image-20210421173730540](Vue.js.assets\image-20210421173730540.png)
 
 4. Getter
 
-   ![image-20210421173747420](D:\vue\Vue.js.assets\image-20210421173747420.png)
+   ![image-20210421173747420](Vue.js.assets\image-20210421173747420.png)
 
-   ![image-20210421173758243](D:\vue\Vue.js.assets\image-20210421173758243.png)
+   ![image-20210421173758243](Vue.js.assets\image-20210421173758243.png)
 
 ## 8.Vue补充
 
@@ -1936,11 +1933,11 @@
 
    1. 遍历数组
 
-   ![image-20210424192533954](D:\vue\Vue.js.assets\image-20210424192533954.png)
+   ![image-20210424192533954](Vue.js.assets\image-20210424192533954.png)
 
    2. 遍历对象
 
-   ![image-20210424192439978](D:\vue\Vue.js.assets\image-20210424192439978.png)
+   ![image-20210424192439978](Vue.js.assets\image-20210424192439978.png)
 
 4. 
 

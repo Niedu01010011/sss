@@ -20,10 +20,6 @@
 
 
 
-5. 事件委派（利用事件的冒泡）
-
-![image-20201116153956897](C:\Users\29635\AppData\Roaming\Typora\typora-user-images\image-20201116153956897.png)
-
 5. 定时器
    1. window.setTimeout(调用函数，[延迟的毫秒数])
       
@@ -35,7 +31,6 @@
 
       2. clearInterval（setInterval的名字）停止定时器
 
-         ![image-20201210233529625](C:\Users\29635\AppData\Roaming\Typora\typora-user-images\image-20201210233529625.png)
 
 
 6. 节流阀
@@ -179,13 +174,9 @@
 
    1.  __ proto__ 对象原型和原型对象prototype是等价的。
 
-      ![img](file://D:\Download\新建文件夹\02配套资料\前端学生资料（新版）\阶段三：JavaScript 网页编程资料\阶段三：JavaScript 网页编程资料\05-JavaScript高级资料\04-JavaScript高级资料\JavaScript 高级_day02（3-6小节）\4-笔记\images\img2.png?lastModify=1609249484)
-
    2. 此实际开发中，不可以使用这个属性，它只是内部指向原型对象 prototype。
 
    ##### 3. 原型链
-
-   ![img](file://D:\Download\新建文件夹\02配套资料\前端学生资料（新版）\阶段三：JavaScript 网页编程资料\阶段三：JavaScript 网页编程资料\05-JavaScript高级资料\04-JavaScript高级资料\JavaScript 高级_day02（3-6小节）\4-笔记\images\img5.png?lastModify=1609306831)
 
    1. 原型链和成员的查找机制：
 
@@ -196,9 +187,9 @@
       如果还没有就查找原型对象的原型（Object的原型对象）。
       依此类推一直找到 Object 为止（null）。
       __proto__对象原型的意义就在于为对象成员查找机制提供一个方向，或者说一条路线。
-
+   
    2. 原型对象中的this指向
-
+   
       构造函数中的this和原型对象的this，都指向我们new出来的实例对象。
 
       ```js
@@ -216,9 +207,9 @@
       console.log(that === ldh);//true
       // 2.原型对象函数里面的this 指向的是 实例对象 ldh
       ```
-
+   
    3. 通过原型为数组扩展内置方法
-
+   
       ```js
        Array.prototype.sum = function() {
          var sum = 0;
@@ -275,7 +266,7 @@
       console.log(son);
       ```
 
-      ![image-20210103153126153](D:\vue\javascript.assets\image-20210103153126153.png)
+      ![image-20210103153126153](javascript.assets\image-20210103153126153.png)
 
 3. 借用原型对象继承方法	
 
@@ -310,7 +301,7 @@
 
    代码运行结果：
 
-   ![image-20210103153547794](D:\vue\javascript.assets\image-20210103153547794.png)
+   ![image-20210103153547794](javascript.assets\image-20210103153547794.png)
 
 ### 四、ES5新增方法
 
@@ -566,7 +557,7 @@
 
    1. 函数内部的this指向
 
-      ![image-20210103213731331](D:\vue\javascript.assets\image-20210103213731331.png)
+      ![image-20210103213731331](javascript.assets\image-20210103213731331.png)
 
    2. 改变函数内部this指向
 
@@ -994,7 +985,7 @@
 
       5. 预定义类
 
-         ![image-20210112160922200](D:\vue\javascript.assets\image-20210112160922200.png)
+         ![image-20210112160922200](javascript.assets\image-20210112160922200.png)
 
       6. 手机号码案例
 
@@ -1079,7 +1070,7 @@
       
       ```
 
-      ![](D:\vue\javascript.assets\let面试题.png)
+      ![](javascript.assets\let面试题.png)
 
       **经典面试题图解：**此题的关键点在于变量i是全局的，函数执行时输出的都是全局作用域下的i值。
 
@@ -1095,7 +1086,7 @@
       
       ```
 
-      ![](D:\vue\javascript.assets\let面试题2.png)
+      ![](javascript.assets\let面试题2.png)
 
       **经典面试题图解：**此题的关键点在于每次循环都会产生一个块级作用域，每个块级作用域中的变量都是不同的，函数执行时输出的是自己上一级（循环产生的块级作用域）作用域下的i值.
 
@@ -1154,7 +1145,7 @@
    - 使用 let 声明的变量，其作用域为该语句所在的代码块内，不存在变量提升
    - 使用 const 声明的是常量，在后面出现的代码中不能再修改该常量的值
 
-   ![](D:\vue\javascript.assets\var&let&const区别.png)
+   ![](javascript.assets\var&let&const区别.png)
 
 3. 解构赋值
 
@@ -1481,9 +1472,9 @@
 
 1. 堆栈底层机制
 
-   ![image-20210424155849413](D:\vue\javascript.assets\image-20210424155849413.png)
+   ![image-20210424155849413](javascript.assets\image-20210424155849413.png)
 
    **面试题**
 
-   ![image-20210424163645490](D:\vue\javascript.assets\image-20210424163645490.png)
+   ![image-20210424163645490](javascript.assets\image-20210424163645490.png)
 

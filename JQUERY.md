@@ -58,19 +58,19 @@
 
 1. **基础选择器**
 
-​			![image-20210124234301696](D:\vue\JQUERY.assets\image-20210124234301696.png)
+​			![image-20210124234301696](JQUERY.assets\image-20210124234301696.png)
 
 2. **层级选择器（后代选择器和子代选择器）**
 
-   ![image-20210124234413935](D:\vue\JQUERY.assets\image-20210124234413935.png)
+   ![image-20210124234413935](JQUERY.assets\image-20210124234413935.png)
 
 3. **筛选选择器**
 
-   ![image-20210124234746039](D:\vue\JQUERY.assets\image-20210124234746039.png)
+   ![image-20210124234746039](JQUERY.assets\image-20210124234746039.png)
 
 4. **jquery中还有一些筛选方法，类似dom中的通过一个节点找另外一个节点，父、子、兄以外有所加强。**
 
-   ![image-20210124234909944](D:\vue\JQUERY.assets\image-20210124234909944.png)
+   ![image-20210124234909944](JQUERY.assets\image-20210124234909944.png)
 
 5. **隐式迭代**
 
@@ -159,27 +159,27 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    ​	语法规范如下:
 
-   ![image-20210129164640430](D:\vue\JQUERY.assets\image-20210129164640430.png)
+   ![image-20210129164640430](JQUERY.assets\image-20210129164640430.png)
 
-   ![image-20210129164657977](D:\vue\JQUERY.assets\image-20210129164657977.png)
+   ![image-20210129164657977](JQUERY.assets\image-20210129164657977.png)
 
-   ![image-20210129164717509](D:\vue\JQUERY.assets\image-20210129164717509.png)
+   ![image-20210129164717509](JQUERY.assets\image-20210129164717509.png)
 
 2. **滑入滑出**
 
-   ![image-20210129164755425](D:\vue\JQUERY.assets\image-20210129164755425.png)
+   ![image-20210129164755425](JQUERY.assets\image-20210129164755425.png)
 
-   ![image-20210129164836276](D:\vue\JQUERY.assets\image-20210129164836276.png)
+   ![image-20210129164836276](JQUERY.assets\image-20210129164836276.png)
 
 3. **淡入淡出**
 
-   ![image-20210129164923192](D:\vue\JQUERY.assets\image-20210129164923192.png)
+   ![image-20210129164923192](JQUERY.assets\image-20210129164923192.png)
 
-   ![image-20210129164941901](D:\vue\JQUERY.assets\image-20210129164941901.png)
+   ![image-20210129164941901](JQUERY.assets\image-20210129164941901.png)
 
 4. **自定义动画**
 
-   ![image-20210129165004660](D:\vue\JQUERY.assets\image-20210129165004660.png)
+   ![image-20210129165004660](JQUERY.assets\image-20210129165004660.png)
 
 ```js
 //代码演示
@@ -228,7 +228,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
 ## 5. 今日总结
 
-![image-20210129165334951](D:\vue\JQUERY.assets\image-20210129165334951.png)
+![image-20210129165334951](JQUERY.assets\image-20210129165334951.png)
 
 ## 6.jquery属性操作
 
@@ -238,19 +238,19 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    所谓元素固有属性就是元素本身自带的属性，比如<a>元素里面的href，比如<input>元素里面的type。
 
-   ![image-20210131101534074](D:\vue\JQUERY.assets\image-20210131101534074.png)
+   ![image-20210131101534074](JQUERY.assets\image-20210131101534074.png)
 
 2. **元素自定义属性值attr()**
 
    用户自己给元素添加的属性，我们称为自定义属性。比如给div添加index=“1"。
 
-   ![image-20210131101720494](D:\vue\JQUERY.assets\image-20210131101720494.png)
+   ![image-20210131101720494](JQUERY.assets\image-20210131101720494.png)
 
 3. **数据缓存data()**
 
    data()方法可以在指定元素上存取数据，并不会修改dom元素结构。一旦页面刷新，之前存放的数据都将被移除。
 
-   ![image-20210131101836970](D:\vue\JQUERY.assets\image-20210131101836970.png)
+   ![image-20210131101836970](JQUERY.assets\image-20210131101836970.png)
 
    演示代码
 
@@ -289,7 +289,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
 1. **jquery内容的文本值**
 
-   ![image-20210131105720434](D:\vue\JQUERY.assets\image-20210131105720434.png)
+   ![image-20210131105720434](JQUERY.assets\image-20210131105720434.png)
 
    ​	
 
@@ -322,7 +322,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    jquery隐式迭代是对同一类元素做了同样的操作。如果想给同一类元素做不同的操作，就需要用到遍历。
 
-   ![image-20210131110315876](D:\vue\JQUERY.assets\image-20210131110315876.png)
+   ![image-20210131110315876](JQUERY.assets\image-20210131110315876.png)
 
    ```js
    //演示代码
@@ -370,9 +370,9 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    jquery方法操作元素的创建，添加，删除方法很多，则重点使用部分，如下：
 
-   ![image-20210131111337961](D:\vue\JQUERY.assets\image-20210131111337961.png)
+   ![image-20210131111337961](JQUERY.assets\image-20210131111337961.png)
 
-   ​	![image-20210131111354171](D:\vue\JQUERY.assets\image-20210131111354171.png)
+   ​	![image-20210131111354171](JQUERY.assets\image-20210131111354171.png)
 
    ​	
 
@@ -412,17 +412,17 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    1. **jquery尺寸操作**
 
-      ![image-20210131113955506](D:\vue\JQUERY.assets\image-20210131113955506.png)
+      ![image-20210131113955506](JQUERY.assets\image-20210131113955506.png)
 
    2. **jquery位置操作**
 
       ![
 
       ```
-   image-20210131114019542
+      image-20210131114019542
       ```
       
-      ](D:\vue\JQUERY.assets\image-20210131114019542.png)
+      ](JQUERY.assets\image-20210131114019542.png)
       
       **代码演示**
       
@@ -484,7 +484,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
 9. **今日总结**
 
-   ![image-20210201000736408](D:\vue\JQUERY.assets\image-20210201000736408.png)
+   ![image-20210201000736408](JQUERY.assets\image-20210201000736408.png)
 
 ## 9.jquery事件注册
 
@@ -493,7 +493,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 + 优点：操作简单，且不用担心事件覆盖等问题。
 + 缺点普通的事件注册不能做事件委托，且无法实现事件解绑，需要借助其他方法。
 
-![image-20210201001047158](D:\vue\JQUERY.assets\image-20210201001047158.png)
+![image-20210201001047158](JQUERY.assets\image-20210201001047158.png)
 
 **演示代码**
 
@@ -527,9 +527,9 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    其中最好用的是：on()
 
-   ![image-20210201001559438](D:\vue\JQUERY.assets\image-20210201001559438.png)
+   ![image-20210201001559438](JQUERY.assets\image-20210201001559438.png)
 
-   ![image-20210201002316273](D:\vue\JQUERY.assets\image-20210201002316273.png)
+   ![image-20210201002316273](JQUERY.assets\image-20210201002316273.png)
 
 ```js
 <body>
@@ -579,7 +579,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    ​		当某个事件上面的逻辑，在特定 需求下不需要的时候，可以把该事件上的逻辑移除，这个过程我们成为事件解绑。jquery为我们提供了多种事件解绑方法：die()/undelegate()/off()等，甚至还有只触发一次的事件绑定方法one()，在这里我们重点讲解一下off();
 
-   ![image-20210201003343684](D:\vue\JQUERY.assets\image-20210201003343684.png)
+   ![image-20210201003343684](JQUERY.assets\image-20210201003343684.png)
 
    ​		**演示代码**
 
@@ -625,7 +625,7 @@ jQuery为我们提供另一个方法，可以停止动画排队：stop() ;
 
    有些时候，在某些特定条件下，我们希望某些事件能够自动触发，比如轮播图自动播放功能跟点击右侧按钮一致。可以利用定时器自动触发右侧按钮点击事件，不必鼠标点击触发。由此jquery为我们提供了两个自动触发事件trigger()和triggerHandle();
 
-   ![image-20210205111404339](D:\vue\JQUERY.assets\image-20210205111404339.png)
+   ![image-20210205111404339](JQUERY.assets\image-20210205111404339.png)
 
    演示代码
 

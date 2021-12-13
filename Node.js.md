@@ -97,7 +97,7 @@
 
    path模块是Node.js官方提供的、用来处理路径的模块。它提供了一系列的方法和属性，用来满足用户对路径的处理需求。
 
-   ![image-20210323142602165](D:\vue\Node.js.assets\image-20210323142602165.png)
+   ![image-20210323142602165](Node.js.assets\image-20210323142602165.png)
 
 2. **路径拼接path.join()**
 
@@ -113,7 +113,7 @@
 
    2. 代码示例：
 
-      ![image-20210323142951243](D:\vue\Node.js.assets\image-20210323142951243.png)
+      ![image-20210323142951243](Node.js.assets\image-20210323142951243.png)
 
       + ../会抵消一个路径
 
@@ -121,21 +121,21 @@
 
    1. 语法格式：
 
-      ![image-20210323143730541](D:\vue\Node.js.assets\image-20210323143730541.png)
+      ![image-20210323143730541](Node.js.assets\image-20210323143730541.png)
 
    2. 代码示例：
 
-      ![image-20210323143744850](D:\vue\Node.js.assets\image-20210323143744850.png)
+      ![image-20210323143744850](Node.js.assets\image-20210323143744850.png)
 
 4. **获取路径中文件的扩展名path.extname()**
 
    1. 语法格式：
 
-      ![image-20210323144022862](D:\vue\Node.js.assets\image-20210323144022862.png)
+      ![image-20210323144022862](Node.js.assets\image-20210323144022862.png)
 
    2. 代码示例：
 
-      ![image-20210323144038032](D:\vue\Node.js.assets\image-20210323144038032.png)
+      ![image-20210323144038032](Node.js.assets\image-20210323144038032.png)
 
 ## 4.http模块
 
@@ -147,15 +147,15 @@
 
 2. IP地址
 
-   ![image-20210324125301276](D:\vue\Node.js.assets\image-20210324125301276.png)
+   ![image-20210324125301276](Node.js.assets\image-20210324125301276.png)
 
 3. 域名和域名服务器
 
-   ![image-20210324125416476](D:\vue\Node.js.assets\image-20210324125416476.png)
+   ![image-20210324125416476](Node.js.assets\image-20210324125416476.png)
 
 4. 端口号
 
-   ![image-20210324125457552](D:\vue\Node.js.assets\image-20210324125457552.png)
+   ![image-20210324125457552](Node.js.assets\image-20210324125457552.png)
 
 5. **创建最基本的web服务器**
 
@@ -186,7 +186,7 @@
 
       只要服务器接收到了客户端请求，就会调用通过server.on()为服务器绑定的request事件处理函数。
 
-      ![image-20210324150234164](D:\vue\Node.js.assets\image-20210324150234164.png)
+      ![image-20210324150234164](Node.js.assets\image-20210324150234164.png)
 
    3. res响应对象
 
@@ -223,7 +223,7 @@
 
 2. **模块化规范**
 
-   ![image-20210324173522605](D:\vue\Node.js.assets\image-20210324173522605.png)
+   ![image-20210324173522605](Node.js.assets\image-20210324173522605.png)
 
 3. **node.js中模块化的分类**
 
@@ -267,23 +267,23 @@
 
    4. 为了防止混乱，建议在同一个模块不要同时使用exports和moudle.exports
 
-      ![image-20210324220152486](D:\vue\Node.js.assets\image-20210324220152486.png)
+      ![image-20210324220152486](Node.js.assets\image-20210324220152486.png)
 
 6. **Node.js中的模块化规范**
 
-   ![image-20210324220232978](D:\vue\Node.js.assets\image-20210324220232978.png)
+   ![image-20210324220232978](Node.js.assets\image-20210324220232978.png)
 
 ## 6.npm与包
 
-1. ![image-20210324232145842](D:\vue\Node.js.assets\image-20210324232145842.png)
+1. ![image-20210324232145842](Node.js.assets\image-20210324232145842.png)
 
 2. **包管理配置文件**
 
-   ![image-20210325135511590](D:\vue\Node.js.assets\image-20210325135511590.png)
+   ![image-20210325135511590](Node.js.assets\image-20210325135511590.png)
 
 3. **快速创建package.json**
 
-   ![image-20210325140011796](D:\vue\Node.js.assets\image-20210325140011796.png)
+   ![image-20210325140011796](Node.js.assets\image-20210325140011796.png)
 
 4. **dependencies节点**
 
@@ -299,7 +299,7 @@
 
 6. **devDependencies节点**
 
-   ![image-20210325140543530](D:\vue\Node.js.assets\image-20210325140543530.png)
+   ![image-20210325140543530](Node.js.assets\image-20210325140543530.png)
 
 7. **解决下包速度慢的问题**
 
@@ -311,31 +311,31 @@
 
    2. nrm
 
-      ![image-20210325143223872](D:\vue\Node.js.assets\image-20210325143223872.png)
+      ![image-20210325143223872](Node.js.assets\image-20210325143223872.png)
 
 8. **包的分类**
 
    1. 项目包
 
-      ![image-20210325143401417](D:\vue\Node.js.assets\image-20210325143401417.png)
+      ![image-20210325143401417](Node.js.assets\image-20210325143401417.png)
 
    2. 全局包
 
-      ![image-20210325143542875](D:\vue\Node.js.assets\image-20210325143542875.png)
+      ![image-20210325143542875](Node.js.assets\image-20210325143542875.png)
 
 9. **规范的包结构**
 
-   ![image-20210325145115502](D:\vue\Node.js.assets\image-20210325145115502.png)
+   ![image-20210325145115502](Node.js.assets\image-20210325145115502.png)
 
 10. **开发属于自己的包**
 
     1. 初始化包的基本结构
 
-       ![image-20210325170322470](D:\vue\Node.js.assets\image-20210325170322470.png)
+       ![image-20210325170322470](Node.js.assets\image-20210325170322470.png)
 
     2. 将不同的功能进行模块化拆分
 
-       ![image-20210325170359372](D:\vue\Node.js.assets\image-20210325170359372.png)
+       ![image-20210325170359372](Node.js.assets\image-20210325170359372.png)
 
     3. 终端中：
 
@@ -345,29 +345,29 @@
 
        3. npm unpublish 包名 --force，删除
 
-          ![image-20210325170526276](D:\vue\Node.js.assets\image-20210325170526276.png)
+          ![image-20210325170526276](Node.js.assets\image-20210325170526276.png)
 
 11. **模块化加载机制**
 
     1. 优先从缓存加载
 
-       ![image-20210325170823621](D:\vue\Node.js.assets\image-20210325170823621.png)
+       ![image-20210325170823621](Node.js.assets\image-20210325170823621.png)
 
     2. 内置模块的加载机制
 
-       ![image-20210325170813750](D:\vue\Node.js.assets\image-20210325170813750.png)
+       ![image-20210325170813750](Node.js.assets\image-20210325170813750.png)
 
     3. 自定义模块的加载机制
 
-       ![image-20210325170803708](D:\vue\Node.js.assets\image-20210325170803708.png)
+       ![image-20210325170803708](Node.js.assets\image-20210325170803708.png)
 
     4. 第三方模块的加载机制
 
-       ![image-20210325170753737](D:\vue\Node.js.assets\image-20210325170753737.png)
+       ![image-20210325170753737](Node.js.assets\image-20210325170753737.png)
 
     5. 目录作为模块
 
-       ![image-20210325170740370](D:\vue\Node.js.assets\image-20210325170740370.png)
+       ![image-20210325170740370](Node.js.assets\image-20210325170740370.png)
 
 ## 7.Express
 
@@ -486,7 +486,7 @@
 
       注意：Express在指定地静态目录中查找文件，并对外提供资源的访问路径。因此，存放静态文件的目录名不会出现在URL中。
 
-      ![image-20210326142938948](D:\vue\Node.js.assets\image-20210326142938948.png)
+      ![image-20210326142938948](Node.js.assets\image-20210326142938948.png)
 
    2. 托管多个静态资源目录，多次调用express.static()函数
 
@@ -507,13 +507,13 @@
 
       现在，就可以通过带有/public前缀地址来访问public目录中的文件了
 
-      ![image-20210326143336969](D:\vue\Node.js.assets\image-20210326143336969.png)
+      ![image-20210326143336969](Node.js.assets\image-20210326143336969.png)
 
 4. **nodemon**
 
    1. 为什么要使用nodemon
 
-      ![image-20210326142631218](D:\vue\Node.js.assets\image-20210326142631218.png)
+      ![image-20210326142631218](Node.js.assets\image-20210326142631218.png)
 
    2. 安装nodemon
 
@@ -523,7 +523,7 @@
 
    3. 使用nodemon
 
-      ![image-20210326142728590](D:\vue\Node.js.assets\image-20210326142728590.png)
+      ![image-20210326142728590](Node.js.assets\image-20210326142728590.png)
 
 5. **Express路由**
 
@@ -533,11 +533,11 @@
 
       2. 现实生活中的路由
 
-         ![image-20210326144515470](D:\vue\Node.js.assets\image-20210326144515470.png)
+         ![image-20210326144515470](Node.js.assets\image-20210326144515470.png)
 
       3. Express中的路由
 
-         ![image-20210326144737759](D:\vue\Node.js.assets\image-20210326144737759.png)
+         ![image-20210326144737759](Node.js.assets\image-20210326144737759.png)
 
       4. 路由匹配的过程
 
@@ -545,7 +545,7 @@
 
          在匹配时，会按照路由的顺序进行匹配，如果请求类型和请求的URL同时匹配成功，则Express会将这次请求，转交给对应的function函数进行处理。
 
-         ![image-20210326145308666](D:\vue\Node.js.assets\image-20210326145308666.png)
+         ![image-20210326145308666](Node.js.assets\image-20210326145308666.png)
 
 6. **路由的使用**
 
@@ -553,23 +553,23 @@
 
       在Express中使用路由最简单的方式，就是把路由挂载到app上
 
-      ![image-20210326145452922](D:\vue\Node.js.assets\image-20210326145452922.png)
+      ![image-20210326145452922](Node.js.assets\image-20210326145452922.png)
 
    2. 模块化路由
 
-      ![image-20210326151610976](D:\vue\Node.js.assets\image-20210326151610976.png)
+      ![image-20210326151610976](Node.js.assets\image-20210326151610976.png)
 
    3. 创建路由
 
-      ![image-20210326151652889](D:\vue\Node.js.assets\image-20210326151652889.png)
+      ![image-20210326151652889](Node.js.assets\image-20210326151652889.png)
 
    4. 使用app.use()函数注册路由模块
 
-      ![image-20210326155848881](D:\vue\Node.js.assets\image-20210326155848881.png)
+      ![image-20210326155848881](Node.js.assets\image-20210326155848881.png)
 
    5. 为路由模块添加前缀
 
-      ![image-20210326151823906](D:\vue\Node.js.assets\image-20210326151823906.png)
+      ![image-20210326151823906](Node.js.assets\image-20210326151823906.png)
 
 7. **Express中间件**
 
@@ -577,7 +577,7 @@
 
       Express中间件，本质上就是一个function处理函数，Express中间件的格式如下：
 
-      ![image-20210326161933244](D:\vue\Node.js.assets\image-20210326161933244.png)
+      ![image-20210326161933244](Node.js.assets\image-20210326161933244.png)
 
       注意：中间件函数的形参列表中，必须包含next参数。而路由器处理函数中只包含req和res。
 
@@ -585,13 +585,13 @@
 
       next函数是实现多个中间件连续调用的关键，它表示把流转关系转交给下一个中间件或路由。
 
-      ![image-20210326162140373](D:\vue\Node.js.assets\image-20210326162140373.png)
+      ![image-20210326162140373](Node.js.assets\image-20210326162140373.png)
 
    3. **Express中间件初步了解**
 
       1. 定义中间件函数
 
-         ![image-20210326162755466](D:\vue\Node.js.assets\image-20210326162755466.png)
+         ![image-20210326162755466](Node.js.assets\image-20210326162755466.png)
 
       2. 全局生效的中间件
 
@@ -599,67 +599,67 @@
 
          通过调用app.use(中间件函数，即可定义一个全局生效的中间件)
 
-         ![image-20210326162924673](D:\vue\Node.js.assets\image-20210326162924673.png)
+         ![image-20210326162924673](Node.js.assets\image-20210326162924673.png)
 
       3. 定义全局中间件的简化形式
 
          直接在app.use(中间件函数)写中间件函数
 
-         ![image-20210326163431084](D:\vue\Node.js.assets\image-20210326163431084.png)
+         ![image-20210326163431084](Node.js.assets\image-20210326163431084.png)
 
       4. 中间件的作用
 
          多个中间件之间，共享一份req和res。基于这样的特性，我们可以在上游的中间件中，统一为req或res对象添加自定义的属性或方法，供下游的中间件或路由进行使用。
 
-         ![image-20210326163628291](D:\vue\Node.js.assets\image-20210326163628291.png)
+         ![image-20210326163628291](Node.js.assets\image-20210326163628291.png)
 
       5. 定义多个全局中间件
 
          可以使用app.use()连续定义多个全局中间件。客户端请求到达服务器之后，会按照中间件定义的先后顺序依次进行调用。
 
-         ![image-20210326163744547](D:\vue\Node.js.assets\image-20210326163744547.png)
+         ![image-20210326163744547](Node.js.assets\image-20210326163744547.png)
 
       6. 局部生效的中间件
 
          不使用app.use()定义的中间件，叫做局部生效的中间件
 
-         ![image-20210326163834711](D:\vue\Node.js.assets\image-20210326163834711.png)
+         ![image-20210326163834711](Node.js.assets\image-20210326163834711.png)
 
       7. 定义多个局部中间件
 
          可以在路由中，通过如下两种等价的方式，使用多个局部中间件：
 
-         ![image-20210326164741801](D:\vue\Node.js.assets\image-20210326164741801.png)
+         ![image-20210326164741801](Node.js.assets\image-20210326164741801.png)
 
       8. 中间件的注意事项
 
-         ![image-20210326164814271](D:\vue\Node.js.assets\image-20210326164814271.png)
+         ![image-20210326164814271](Node.js.assets\image-20210326164814271.png)
 
    4. **中间件的分类**
 
-      ![image-20210326164926370](D:\vue\Node.js.assets\image-20210326164926370.png)
+      ![image-20210326164926370](Node.js.assets\image-20210326164926370.png)
 
       1. 应用级别的中间件
 
-         ![image-20210326165059105](D:\vue\Node.js.assets\image-20210326165059105.png)
+         ![image-20210326165059105](Node.js.assets\image-20210326165059105.png)
 
       2. 路由级别的中间件
 
-         ![image-20210326165119457](D:\vue\Node.js.assets\image-20210326165119457.png)
+         ![image-20210326165119457](Node.js.assets\image-20210326165119457.png)
 
       3. 错误级别的中间件
 
-         ![image-20210326165218237](D:\vue\Node.js.assets\image-20210326165218237.png)
+         ![image-20210326165218237](Node.js.assets\image-20210326165218237.png)
 
       4. Express内置的中间件
 
-         ![image-20210326165253173](D:\vue\Node.js.assets\image-20210326165253173.png)
+         ![image-20210326165253173](Node.js.assets\image-20210326165253173.png)
 
          ​	req.body()使用之前先配置express.json()和express.urlencoded()，(直接在中间件函数之前加此代码)才能解析json和URL-encoded格式的请求体数据，不然默认undefined。
 
       5. 第三方中间件
 
-         ![image-20210326165328975](D:\vue\Node.js.assets\image-20210326165328975.png)
+         ![image-20210326165328975](Node.js.assets\image-20210326165328975.png)
 
 8. **使用Express写接口**
 
@@ -679,39 +679,39 @@
 
       浏览器的同源安全策略默认会阻止网页跨域获取资源。但如果接口服务器配置了CORS相关的HTTP响应头，就可以解除浏览器端的跨域访问限制。
 
-      ![image-20210326224513509](D:\vue\Node.js.assets\image-20210326224513509.png)
+      ![image-20210326224513509](Node.js.assets\image-20210326224513509.png)
 
    3. cors注意事项
 
-      ![image-20210326224554284](D:\vue\Node.js.assets\image-20210326224554284.png)
+      ![image-20210326224554284](Node.js.assets\image-20210326224554284.png)
 
    4. cors响应头部- Access-Control-Allow-Origin
 
-      + ![image-20210326224732540](D:\vue\Node.js.assets\image-20210326224732540.png)
+      + ![image-20210326224732540](Node.js.assets\image-20210326224732540.png)
 
-      + ![image-20210326224741771](D:\vue\Node.js.assets\image-20210326224741771.png)
+      + ![image-20210326224741771](Node.js.assets\image-20210326224741771.png)
 
    5. cors响应头部- Access-Control-Allow-Headers
 
-      ![image-20210326225544315](D:\vue\Node.js.assets\image-20210326225544315.png)
+      ![image-20210326225544315](Node.js.assets\image-20210326225544315.png)
 
    6. cors响应头部- Access-Control-Allow-Methods
 
-      ![image-20210326233417174](D:\vue\Node.js.assets\image-20210326233417174.png)
+      ![image-20210326233417174](Node.js.assets\image-20210326233417174.png)
 
    7. 简单请求与预检请求
 
       + 简单：
 
-        ![image-20210326233448260](D:\vue\Node.js.assets\image-20210326233448260.png)
+        ![image-20210326233448260](Node.js.assets\image-20210326233448260.png)
 
       + 预检
 
-        ![image-20210326233522231](D:\vue\Node.js.assets\image-20210326233522231.png)
+        ![image-20210326233522231](Node.js.assets\image-20210326233522231.png)
 
       + 区别
 
-        ![image-20210326233537977](D:\vue\Node.js.assets\image-20210326233537977.png)
+        ![image-20210326233537977](Node.js.assets\image-20210326233537977.png)
 
 ## 8.MySQL数据库
 
@@ -723,11 +723,11 @@
 
 2. 配置mysql模块
 
-   ![image-20210327154041224](D:\vue\Node.js.assets\image-20210327154041224.png)
+   ![image-20210327154041224](Node.js.assets\image-20210327154041224.png)
 
 3. 测试mysql模块能否正常工作
 
-   ![image-20210327154107201](D:\vue\Node.js.assets\image-20210327154107201.png)
+   ![image-20210327154107201](Node.js.assets\image-20210327154107201.png)
 
 4. 查询，添加，更新，删除操作
 
@@ -768,7 +768,7 @@
 
    当用户执行了删除动作时，我们并没有执行delete语句把数据删除掉，而实执行了update语句，将这条数据对应的status字段标记为删除即可。
 
-   ![image-20210327154610335](D:\vue\Node.js.assets\image-20210327154610335.png)
+   ![image-20210327154610335](Node.js.assets\image-20210327154610335.png)
 
 ## 9.前后端的身份认证
 
@@ -794,31 +794,31 @@
 
    1. Http协议的无状态性
 
-      ![image-20210327162600120](D:\vue\Node.js.assets\image-20210327162600120.png)
+      ![image-20210327162600120](Node.js.assets\image-20210327162600120.png)
 
    2. 如何突破HTTP无状态的限制
 
-      ![image-20210327162635634](D:\vue\Node.js.assets\image-20210327162635634.png)
+      ![image-20210327162635634](Node.js.assets\image-20210327162635634.png)
 
    3. Cookie
 
-      ![image-20210327162719040](D:\vue\Node.js.assets\image-20210327162719040.png)
+      ![image-20210327162719040](Node.js.assets\image-20210327162719040.png)
 
    4. Cookie在身份认证中的作用
 
-      ![image-20210327162758774](D:\vue\Node.js.assets\image-20210327162758774.png)
+      ![image-20210327162758774](Node.js.assets\image-20210327162758774.png)
 
    5. Cookie不具有安全性
 
-      ![image-20210327162837480](D:\vue\Node.js.assets\image-20210327162837480.png)
+      ![image-20210327162837480](Node.js.assets\image-20210327162837480.png)
 
    6. 提高身份认证的安全性
 
-      ![image-20210327162904587](D:\vue\Node.js.assets\image-20210327162904587.png)
+      ![image-20210327162904587](Node.js.assets\image-20210327162904587.png)
 
    7. session的工作原理
 
-      ![image-20210327162929404](D:\vue\Node.js.assets\image-20210327162929404.png)
+      ![image-20210327162929404](Node.js.assets\image-20210327162929404.png)
 
 4. 在Express中使用Session认证
 
@@ -886,7 +886,7 @@
 
       JWT是目前最流行的跨域认证解决方案。
 
-      ![image-20210328155554457](D:\vue\Node.js.assets\image-20210328155554457.png)
+      ![image-20210328155554457](Node.js.assets\image-20210328155554457.png)
 
    3. JWT组成部分
 
@@ -896,11 +896,11 @@
       Header.Payload.Signature
       ```
 
-      ![image-20210328184046881](D:\vue\Node.js.assets\image-20210328184046881.png)
+      ![image-20210328184046881](Node.js.assets\image-20210328184046881.png)
 
    4. JWT的三个部分各自代表的含义
 
-      ![image-20210328184135569](D:\vue\Node.js.assets\image-20210328184135569.png)
+      ![image-20210328184135569](Node.js.assets\image-20210328184135569.png)
 
    5. JWT的使用方式
 
@@ -924,16 +924,16 @@
 
    7. 定义secret密钥
 
-      ![image-20210328201150160](D:\vue\Node.js.assets\image-20210328201150160.png)
+      ![image-20210328201150160](Node.js.assets\image-20210328201150160.png)
 
    8. 在登录成功后生成JWT字符串
 
-      ![image-20210328201230612](D:\vue\Node.js.assets\image-20210328201230612.png)
+      ![image-20210328201230612](Node.js.assets\image-20210328201230612.png)
 
    9. 将JWT字符串还原成JSON对象
 
-      ![image-20210328201303932](D:\vue\Node.js.assets\image-20210328201303932.png)
+      ![image-20210328201303932](Node.js.assets\image-20210328201303932.png)
 
    10. 捕获解析JWT失败后产生的错误
 
-       ![image-20210328201502962](D:\vue\Node.js.assets\image-20210328201502962.png)
+       ![image-20210328201502962](Node.js.assets\image-20210328201502962.png)
